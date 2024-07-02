@@ -161,3 +161,5 @@ AddPackage skanlite # Image Scanning Application
 
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 AddPackage github-cli # The GitHub CLI
+
+AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
