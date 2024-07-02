@@ -160,3 +160,4 @@ AddPackage sane-airscan # SANE - SANE backend for AirScan (eSCL) and WSD documen
 AddPackage skanlite # Image Scanning Application
 
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
+AddPackage github-cli # The GitHub CLI
