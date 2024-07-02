@@ -1,0 +1,13 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+
+192.168.1.99 gitlab.home.arpa
+
+#127.0.0.1 youtube.com
+#127.0.0.1 www.youtube.com
+#127.0.0.1 youtu.be
+#127.0.0.1 m.youtube.com
+#127.0.0.1 news.ycombinator.com
+#127.0.0.1 reddit.com
+#127.0.0.1 old.reddit.com
+#127.0.0.1 www.reddit.com
