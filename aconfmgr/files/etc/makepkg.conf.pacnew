@@ -95,7 +95,7 @@ BUILDENV=(!distcc color !ccache check !sign)
 #-- lto:        Add compile flags for building with link time optimization
 #-- autodeps:   Automatically add depends/provides
 #
-OPTIONS=(strip docs !libtool !staticlibs emptydirs zipman purge !debug lto)
+OPTIONS=(strip docs !libtool !staticlibs emptydirs zipman purge debug lto)
 
 #-- File integrity checks to use. Valid: md5, sha1, sha224, sha256, sha384, sha512, b2
 INTEGRITY_CHECK=(sha256)
@@ -142,7 +142,7 @@ LIB_DIRS=('lib:usr/lib' 'lib32:usr/lib32')
 COMPRESSGZ=(gzip -c -f -n)
 COMPRESSBZ2=(bzip2 -c -f)
 COMPRESSXZ=(xz -c -z -)
-COMPRESSZST=(zstd -c -T0 --fast -)
+COMPRESSZST=(zstd -c -T0 -)
 COMPRESSLRZ=(lrzip -q)
 COMPRESSLZO=(lzop -q)
 COMPRESSZ=(compress -c -f)

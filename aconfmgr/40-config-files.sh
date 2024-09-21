@@ -62,6 +62,9 @@ CopyFile /etc/laptop-mode/conf.d/wireless-iwl-power.conf
 CopyFile /etc/laptop-mode/conf.d/wireless-power.conf
 CopyFile /etc/laptop-mode/laptop-mode.conf
 
+# don't go to sleep if laptop lid is closed on the login screen
+CopyFile /etc/systemd/logind.conf
+
 # services
 CreateLink /etc/systemd/system/bluetooth.target.wants/bluetooth.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bluetooth.service
@@ -140,9 +143,22 @@ CopyFile /etc/kdumpst.d/00-default
 CreateLink /usr/lib/jvm/default java-22-openjdk
 CreateLink /usr/lib/jvm/default-runtime java-22-openjdk
 
-
 CreateLink /usr/lib/pentablet/conf/xppen/config.xml /etc/xppen/config.xml
 CopyFile /etc/xppen/config.xml
 
+CreateFile /etc/samba/smb.conf > /dev/null
+
 
 # docker
+
+# ssh stuff
+
+CreateLink /etc/systemd/system/multi-user.target.wants/fail2ban.service /usr/lib/systemd/system/fail2ban.service
+CreateDir /etc/fail2ban/fail2ban.d
+CreateDir /etc/fail2ban/jail.d
+
+CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
+CopyFile /etc/pam.d/sshd
+CopyFile /etc/ssh/sshd_config
+CopyFile /etc/ssh/sshd_config.d/99-archlinux.conf
+

@@ -30,7 +30,6 @@ AddPackage --foreign godot-mono-bin # Godot is an advanced, feature packed, mult
 AddPackage --foreign zls-git # Zig LSP implementation + Zig Language Server
 
 AddPackage --foreign aseprite # Create animated sprites and pixel art
-AddPackage --foreign pureref # Reference Image Viewer
 AddPackage --foreign xp-pen-tablet-systemlibs # XP-Pen (Official) Linux utility (New UI driver)
 
 AddPackage --foreign ttf-aptos # The new default Microsoft 365 font, used by Microsoft
@@ -41,6 +40,12 @@ AddPackage --foreign epson-inkjet-printer-escpr2 # Epson Inkjet Printer Driver 2
 AddPackage --foreign xone-dkms-git # Modern Linux driver for Xbox One and Xbox Series X|S controllers
 AddPackage --foreign xone-dongle-firmware # Xbox Wireless Controller Adapter firmware
 
-AddPackage --foreign duckstation-qt-bin # Fast PlayStation 1 emulator for PC and Android
 AddPackage --foreign losslesscut-bin # Crossplatform GUI tool for lossless trimming/cutting of video/audio files
 AddPackage --foreign sublime-text-4 # Sophisticated text editor for code, html and prose - stable build
+
+AddPackage --foreign dropbox # A free service that lets you bring your photos, docs, and videos anywhere and share them easily.
+AddPackage --foreign dropbox-cli # Command line interface for Dropbox
+AddPackage --foreign duckstation-git # A Sony PlayStation (PSX) emulator, focusing on playability, speed, and long-term maintainability (git version)
+AddPackage --foreign google-chrome # The popular web browser by Google (Stable Channel)
+AddPackage --foreign qdirstat # Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
+AddPackage --foreign teams-for-linux # Unofficial Microsoft Teams client for Linux using Electron.

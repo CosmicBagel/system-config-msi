@@ -69,3 +69,7 @@ IgnorePath '/usr/share/applications/org.wezfurlong.wezterm.desktop'
 IgnorePath '/usr/lib/utempter/utempter'
 IgnorePath '/usr/bin/groupmems'
 IgnorePath '/var/log/journal'
+
+# sshd keys
+IgnorePath '/etc/ssh/ssh_host_*_key'
+IgnorePath '/etc/ssh/ssh_host_*_key.pub'

@@ -6,6 +6,8 @@
   <service name="dhcpv6-client"/>
   <service name="ipp-client"/>
   <service name="sane"/>
+  <port port="22" protocol="tcp"/>
+  <port port="22" protocol="udp"/>
   <protocol value="icmp"/>
   <protocol value="ipv6-icmp"/>
   <forward/>

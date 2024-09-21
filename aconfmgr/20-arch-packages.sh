@@ -163,3 +163,13 @@ AddPackage zed # A high-performance, multiplayer code editor from the creators o
 AddPackage github-cli # The GitHub CLI
 
 AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
+
+AddPackage dolphin-plugins # Extra Dolphin plugins
+AddPackage fail2ban # Bans IPs after too many failed authentication attempts
+AddPackage ghex # A simple binary editor for the Gnome desktop
+AddPackage git-lfs # Git extension for versioning large files
+AddPackage kwalletmanager # Wallet management tool
+AddPackage libpam-google-authenticator # PAM module for google authenticator app
+AddPackage python-pip # The PyPA recommended tool for installing Python packages
+AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
+AddPackage trash-cli # Command line trashcan (recycle bin) interface

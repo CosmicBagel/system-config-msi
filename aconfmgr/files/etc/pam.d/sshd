@@ -1,0 +1,8 @@
+#%PAM-1.0
+#Require google authentication
+auth      required  pam_google_authenticator.so
+#But not password
+#auth      include   system-remote-login
+account   include   system-remote-login
+password  include   system-remote-login
+session   include   system-remote-login

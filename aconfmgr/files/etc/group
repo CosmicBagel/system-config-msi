@@ -67,3 +67,4 @@ named:x:40:
 docker:x:963:sam
 qemu:x:962:
 saned:x:964:
+alpm:x:961:

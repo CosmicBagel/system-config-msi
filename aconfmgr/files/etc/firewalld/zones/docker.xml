@@ -2,6 +2,9 @@
 <zone version="1.0" target="ACCEPT">
   <short>docker</short>
   <description>zone for docker bridge network interfaces</description>
+  <service name="ipp-client"/>
+  <service name="mdns"/>
+  <service name="ipp"/>
   <interface name="docker0"/>
   <forward/>
 </zone>
