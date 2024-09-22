@@ -62,6 +62,9 @@ CopyFile /etc/laptop-mode/conf.d/wireless-iwl-power.conf
 CopyFile /etc/laptop-mode/conf.d/wireless-power.conf
 CopyFile /etc/laptop-mode/laptop-mode.conf
 
+# disable wifi power saving
+CopyFile /etc/NetworkManager/conf.d/default-wifi-powersave-off.conf
+
 # don't go to sleep if laptop lid is closed on the login screen
 CopyFile /etc/systemd/logind.conf
 
