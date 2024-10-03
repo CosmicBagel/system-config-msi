@@ -173,3 +173,4 @@ AddPackage libpam-google-authenticator # PAM module for google authenticator app
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
 AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
+AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs

@@ -22,9 +22,6 @@ AddPackage --foreign neovim-remote # Support --remote and friends for Neovim
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 AddPackage --foreign wlrctl # Utility for miscellaneous wlroots extensions
 
-
-AddPackage --foreign neovim-git # Fork of Vim aiming to improve user experience, plugins, and GUIs
-
 AddPackage --foreign godot-mono-bin # Godot is an advanced, feature packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.
 
 AddPackage --foreign zls-git # Zig LSP implementation + Zig Language Server
