@@ -46,3 +46,5 @@ AddPackage --foreign duckstation-git # A Sony PlayStation (PSX) emulator, focusi
 AddPackage --foreign google-chrome # The popular web browser by Google (Stable Channel)
 AddPackage --foreign qdirstat # Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
 AddPackage --foreign teams-for-linux # Unofficial Microsoft Teams client for Linux using Electron.
+
+AddPackage --foreign bluetuith # TUI-based bluetooth manager

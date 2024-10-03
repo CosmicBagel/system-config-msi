@@ -173,4 +173,9 @@ AddPackage libpam-google-authenticator # PAM module for google authenticator app
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
 AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
+
+AddPackage lftp # Sophisticated command line based FTP client
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
+AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+AddPackage qbittorrent-nox # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar, w/o gui
+AddPackage w3m # Text-based Web browser as well as pager
