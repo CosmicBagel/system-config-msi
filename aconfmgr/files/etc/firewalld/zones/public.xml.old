@@ -4,6 +4,7 @@
   <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
   <service name="dhcpv6-client"/>
   <port port="22" protocol="tcp"/>
+  <port port="22" protocol="udp"/>
   <interface name="enp0s20f0u4"/>
   <forward/>
 </zone>
