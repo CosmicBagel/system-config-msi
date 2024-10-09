@@ -25,7 +25,6 @@ CopyFile /etc/NetworkManager/conf.d/dns.conf
 
 # mkinitcpio
 CopyFile /etc/mkinitcpio.conf
-CopyFile /etc/mkinitcpio.d/linux-lts.preset
 CopyFile /etc/mkinitcpio.d/linux.preset
 
 # laptop mode power saving
@@ -164,4 +163,3 @@ CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/sys
 CopyFile /etc/pam.d/sshd
 CopyFile /etc/ssh/sshd_config
 CopyFile /etc/ssh/sshd_config.d/99-archlinux.conf
-

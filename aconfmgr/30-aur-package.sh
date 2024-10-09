@@ -34,7 +34,7 @@ AddPackage --foreign ttf-aptos # The new default Microsoft 365 font, used by Mic
 AddPackage --foreign docker-desktop # Docker Desktop is an easy-to-install application that enables you to locally build and share containerized applications and microservices.
 AddPackage --foreign epson-inkjet-printer-escpr2 # Epson Inkjet Printer Driver 2 (ESC/P-R) for Linux
 
-AddPackage --foreign xone-dkms-git # Modern Linux driver for Xbox One and Xbox Series X|S controllers
+AddPackage --foreign xone-dlundqvist-dkms-git # Modern Linux driver for Xbox One and Xbox Series X|S controllers - dlundqvist fork
 AddPackage --foreign xone-dongle-firmware # Xbox Wireless Controller Adapter firmware
 
 AddPackage --foreign losslesscut-bin # Crossplatform GUI tool for lossless trimming/cutting of video/audio files
