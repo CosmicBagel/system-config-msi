@@ -151,7 +151,6 @@ AddPackage maliit-keyboard # Virtual keyboard based on Maliit framework
 AddPackage bitwarden # A secure and free password manager for all of your devices
 
 AddPackage docker # Pack, ship and run any application as a lightweight container
-AddPackage docker-compose # Fast, isolated development environments using Docker
 
 AddPackage sane # Scanner Access Now Easy
 AddPackage sane-airscan # SANE - SANE backend for AirScan (eSCL) and WSD document scanners
