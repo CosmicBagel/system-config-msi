@@ -176,3 +176,6 @@ AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and 
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 AddPackage qbittorrent-nox # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar, w/o gui
 AddPackage w3m # Text-based Web browser as well as pager
+
+AddPackage freerdp # Free implementation of the Remote Desktop Protocol (RDP)
+AddPackage remmina # remote desktop client written in GTK+
