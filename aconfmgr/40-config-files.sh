@@ -162,4 +162,4 @@ CreateDir /etc/fail2ban/jail.d
 CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
 CopyFile /etc/pam.d/sshd
 CopyFile /etc/ssh/sshd_config
-CopyFile /etc/ssh/sshd_config.d/99-archlinux.conf
+CopyFile /etc/ssh/sshd_config.d/30-allow-keyboard-interactive.conf
